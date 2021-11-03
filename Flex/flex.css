@@ -1,4 +1,5 @@
 
+
 .container1 {
 
     background-color: red;
@@ -35,4 +36,21 @@
         height: 200px;
     }
 
-    
+    .container3 {
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: blue;
+        margin-top: 50px;
+        height: 200px;
+        width: 70%;
+    }
+
+    .item9, .item10, .item11, .item12 {
+
+        margin-left: 50px;
+        background-color: #000;
+        color: #fff;
+        width: 20%;
+    }
