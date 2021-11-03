@@ -1,7 +1,7 @@
 
 .ultimate-container {
 
-    max-width: 50%;
+    max-width: 80%;
     display: flex;
 }
 
@@ -12,5 +12,5 @@ p {
 
 html {
 
-    font-size: 16px;
+    font-size: 10px;
 }
