@@ -1,0 +1,26 @@
+.container {
+
+    display: flex;
+    width: 100%;
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+.item1, .item2, .item3 , .item4 {
+
+    border: 1px solid red;
+    width: 200px;
+    background-color: red;
+    margin-left: 30px;
+}
+
+.item1 {
+    
+    flex-grow: 1;
+}
+
+.item2 {
+
+    flex-basis: 100px
+}

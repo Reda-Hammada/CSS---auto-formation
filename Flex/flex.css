@@ -20,6 +20,8 @@
     }
 
 
+    
+
     .container2 {
 
         margin-top: 100px;
@@ -36,10 +38,15 @@
         height: 200px;
     }
 
+    .item1 {
+
+        flex-grow: 3;
+    }
+
     .container3 {
 
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         flex-wrap: wrap;
         background-color: blue;
         margin-top: 50px;
