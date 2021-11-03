@@ -1,0 +1,36 @@
+
+.container1 {
+
+    background-color: red;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+
+.item1, .item2, .item3, .item4 {
+
+     background-color: yellow;
+     width: 200px;
+     height: 100px;
+     margin-left: 50px
+    
+    }
+
+
+    .container2 {
+
+        margin-top: 100px;
+        background-color: green;
+        width: 20%;
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .item5, .item6, .item7 , .item8 {
+
+        margin-bottom: 50px;
+        background-color: grey;
+        height: 200px;
+    }
