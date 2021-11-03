@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+* {             /* Universal Selector */
+    margin:0;
+    padding:0;
+}
+
+:root {
+
+    --universal-font: 'Roboto', sans-serif;
+
+
+}
+
+body {   /* Element Type Selectors: */
+
+    background-color: whitesmoke;
+}
+
+h1 { 
+
+    font-family: var(--universal-font);
+}
+
+#loremparagraph { /* ID selector */
+
+    font-family: var(--universal-font);
+}
+
+.loremcontainer { /* Class Selector */
+
+  margin-top: 150px;
+  margin-left: 60px;
+    
+}
+
+
+ul {
+
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+
+}
+ul > li {  /* Child Selectors */
+
+    margin-left: 40px;
+    display: inline;
+    font-family: var(--universal-font);
+    cursor: pointer;
+   
+
+}
+
+.secondcontainer p{ /* Descendant Selector */
+
+    font-family: var(--universal-font);
+    padding-top: 100px;
+    padding-left: 50px;
+    
+}
+
+ 
+ .loremcontainer h1 + p { /* Adjacent Sibling Selector */ 
+    color: rgb(12, 12, 245);
+    font-size: 18px;
+}
+#hd2{
+
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.secondcontainer h2 ~ p {  /* General Sibling Selectors */
+
+    color: rgb(245, 11, 11);
+}
+
+h3, h4, h5, h6 {
+
+    color: rgb(13, 209, 13);
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}

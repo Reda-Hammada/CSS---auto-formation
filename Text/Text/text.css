@@ -1,0 +1,67 @@
+p {  /*  Text Color */
+
+    color: red;
+}
+
+h1 {   /** Text Alignment */
+
+    text-align: left;
+}
+
+h2 {
+
+    text-align: right;
+}
+
+h3 {
+    
+    text-align: center;
+}
+
+h4 {
+
+    text-align: justify;
+}
+
+h1 { /* Text-Decoration */
+    text-decoration:overline;
+}
+h2 {
+    text-decoration:line-through;
+}
+h3 {
+    text-decoration:underline;
+}
+
+h1 {  /* Text-Transfrom */
+    text-transform: uppercase;
+}
+h2 {
+    text-transform: capitalize;
+}
+h3 {
+    text-transform: lowercase;
+}
+
+
+h1 { /* text-identication */
+
+    text-indent: 100px;
+
+}
+
+h1 { /* Letter Spacing */
+
+    Letter-Spacing: 5px;
+
+}
+
+h2 { /* Line Height */
+
+    line-height: 40px;
+}
+
+h3 { /* words spacing */ 
+
+    word-spacing: 40px;
+}

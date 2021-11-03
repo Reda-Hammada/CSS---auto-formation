@@ -1,0 +1,16 @@
+
+.ultimate-container {
+
+    max-width: 50%;
+    display: flex;
+}
+
+p { 
+    font-size: 2rem;
+    
+}
+
+html {
+
+    font-size: 16px;
+}
