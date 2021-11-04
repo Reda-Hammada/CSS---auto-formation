@@ -27,5 +27,11 @@
 
 .item3 {
 
-    
+    flex-basis: 600px;
+
+}
+
+.item4 {
+
+    flex: 1 2 900px;
 }
