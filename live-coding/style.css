@@ -1,0 +1,12 @@
+header nav ul {
+
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: green;
+}
+
+article {
+
+    background-color: aqua;
+}
